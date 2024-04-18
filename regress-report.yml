@@ -99,17 +99,17 @@
 
 - summary: |
       При заказе товара не отправляется запрос
-    environment: |
+  environment: |
       Google Chrome   123.0.6312.122 (Официальная сборка) (64 бит)
       ОС Windows
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Зайти на страницу со списком товаров https://hexlet-products-store.vercel.app/
       2. нажать на кнопку "add to cart" на одном из товаров
       3. перейти в корзину нажам на кнопку "cart"
       4. сделать заказ нажав на кнопку "checkout"
-    expected-result: |
+  expected-result: |
       Должно появится уведомление об успешно совершнном заказе, в DevTools должно быть видно что инофрмация отарвлена на сервер. 
-    actual-result: |
+  actual-result: |
       Уведомление об успешно совершнном заказе появляется, но в DevTools во вкладук Network ошибка 500
       
 - summary: |
