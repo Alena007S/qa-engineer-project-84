@@ -265,7 +265,7 @@
 
     - summary: |
     Просмотр полной информации о товаре
-  requirement: >
+requirement: >
     Нажав на товар в списке товаров, происходит переход на страницу с подробным описанием этого товара 
     prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
     test-data: ""
