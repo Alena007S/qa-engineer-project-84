@@ -28,8 +28,7 @@
   requirement: >
     При включённом чек-боксе "In stock" должны отображаться только
     товара из наличия 
-  prerequisites: >
-    Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
+  prerequisites: > Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
   test-data: магазин https://hexlet-products-store.vercel.app/
   steps:
     - Нажимаем чек-бокс "In stock"
@@ -100,7 +99,6 @@
   requirement: >
     При вводе пользователем в поле поиска названия товара, на странице
     со списком товаров
-
     должны остаться только товары с искомым названием
   prerequisites: >
     Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
@@ -116,7 +114,6 @@
   requirement: >
     При вводе пользователем в поле поиска категории товара, на странице
     со списком товаров
-
     должны остаться только товары из искомой категории
   prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
   test-data: магазин https://hexlet-products-store.vercel.app/
@@ -131,7 +128,6 @@
   requirement: >
     При фильтрации товара по цене, на странице со списком товаров
     должны остаться товары цена которых
-
     находится в пределах указанного диапазона
   prerequisites: >
     Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
@@ -142,7 +138,6 @@
   expected-result: >
     На странице со списком товаров пользователь должен видеть
     товары цена которых находится в диапазоне
-
     от 400 до 1000 
 - summary: |
     Проверка суммирования общей суммы товаров в корзине
@@ -161,12 +156,10 @@
   requirement: >
     При нажатии на кнопку "Checkout" пользователь должен увидеть
     сообщение об успешно оформленном заказе,
-
     в DevTools должен быть виден отправленный запрос
   prerequisites: >
     Открыта страница корзины товара
     https://hexlet-products-store.vercel.app/cart
-
     В корзину добавлено несколько товаров.
   test-data: магазин https://hexlet-products-store.vercel.app/
   steps:
@@ -247,14 +240,12 @@
   expected-result: >
     При перезагрузке страницы или при открытии новой вкладки,
     товары пользователя должны оставаться
-
     в корзине. В Devtools должны быть куки. 
 - summary: |
     Фильтрация списка товаров по бренду
   requirement: >
     При фильтрации списка товаров по бренду, на страницы со списком
     товаров должны оставаться
-
     только товары выбранного бренда
   prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
   test-data: магазин https://hexlet-products-store.vercel.app/
