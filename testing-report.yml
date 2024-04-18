@@ -72,7 +72,7 @@
     Проверка кнопки "Previous"
   status: pass
 
-  - summary: |
+- summary: |
     Корзина пользователя остается в сессии браузера
   status: fail
 
