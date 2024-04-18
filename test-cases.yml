@@ -265,13 +265,13 @@
 
     - summary: |
     Просмотр полной информации о товаре
-   requirement: >
+    requirement: >
     Нажав на товар в списке товаров, происходит переход на страницу с подробным описанием этого товара 
-  prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
-  test-data: ""
-  steps:
+    prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
+    test-data: ""
+    steps:
     - Нажимаем на товар Samsung Universe 9
-  expected-result: |
+   expected-result: |
     Пользователь должен увидеть на странице подробную информацию о товаре Samsung Universe 9, включаю цену со скидкой и без и рейтинг
 - summary: |
     Переход по категории со страници с подробным описанием товара 
