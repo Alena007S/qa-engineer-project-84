@@ -271,27 +271,27 @@
     test-data: ""
     steps:
     - Нажимаем на товар Samsung Universe 9
-   expected-result: |
+    expected-result: |
     Пользователь должен увидеть на странице подробную информацию о товаре Samsung Universe 9, включаю цену со скидкой и без и рейтинг
 - summary: |
     Переход по категории со страници с подробным описанием товара 
-  requirement: >
+   requirement: >
     Нажав на кнопку "#smartphones" на странице с полным описание товара должен осуществится переход к списку товаров из этого категории
-  prerequisites: Открыта страница с подрбным описание товара https://hexlet-products-store.vercel.app/products/3#
-  test-data: ""
-  steps:
+   prerequisites: Открыта страница с подрбным описание товара https://hexlet-products-store.vercel.app/products/3#
+   test-data: ""
+   steps:
     - Нажимаем на кнопку "#smartphones"
-  expected-result: |
+   expected-result: |
     Пользователь должен увидеть переход на страницу со списком товаров категории smartphones
 
-    - summary: |
+- summary: |
     проверка магазина как SPA-приложение
-  requirement: >
+   requirement: >
     Магазин должен работать без перезагрузки страницы
-  prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
-  test-data: ""
-  steps:
+   prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
+   test-data: ""
+   steps:
     - нажимаем на кнопку "Next"
     - нажимаем на кнопку "Previous"
-  expected-result: |
+   expected-result: |
     Страницы должны пелелистываться не перезагружая страницу 
