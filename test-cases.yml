@@ -39,7 +39,7 @@
     Переход на страницу корзины  
   requirement: |
     При нажатие кнопки "Cart" пользователь должен переходить на страницу корзины
-  prerequisites: |  Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
+  prerequisites:  Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
   test-data: магазин https://hexlet-products-store.vercel.app/
   steps:
     - Нажимаем кнопку «Cart»
@@ -63,7 +63,7 @@
   requirement: >
     При нажатии кнопки "Delete" напротив товара его количество должно
     уменьшится на одну единицу
-  prerequisites: | Открыта страница Корзины
+  prerequisites: Открыта страница Корзины
     https://hexlet-products-store.vercel.app/cart В корзине есть товары.
   test-data: магазин https://hexlet-products-store.vercel.app/
   steps:
@@ -88,7 +88,7 @@
   requirement: >
     При нажатии кнопки "Continue shopping" клиента должно перебрасывать
     на страницу со списком товаров
-  prerequisites: | Открыта страница Корзины https://hexlet-products-store.vercel.app/cart
+  prerequisites: Открыта страница Корзины https://hexlet-products-store.vercel.app/cart
   test-data: магазин https://hexlet-products-store.vercel.app/
   steps:
     - Нажимаем кнопку "Continue shopping"
@@ -115,7 +115,7 @@
     При вводе пользователем в поле поиска категории товара, на странице
     со списком товаров
     должны остаться только товары из искомой категории
-  prerequisites: | Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
+  prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
   test-data: магазин https://hexlet-products-store.vercel.app/
   steps:
     - Выбираем графу "Search"
@@ -144,7 +144,7 @@
   requirement: >
     При добавлении нескольких товаров в корзину, должна отображаться
     общая сумма заказа
-  prerequisites: | Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
+  prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
   test-data: магазин https://hexlet-products-store.vercel.app/
   steps:
     - добавляем три товара в корзину
@@ -171,7 +171,7 @@
     Проверка оплаты товара 
   requirement: >
     После успешного заказа товара, доджен осушествляться переход на страницу оплаты.
-  prerequisites: | Открыта страница корзины товара
+  prerequisites: Открыта страница корзины товара
     https://hexlet-products-store.vercel.app/cart В корзину добавлено несколько
     товаров.
   test-data: магазин https://hexlet-products-store.vercel.app/
@@ -207,7 +207,7 @@
   requirement: >
     При нажатии на кнопку "Next" должен происходить переход на
     следующую страницу со списком товаров
-  prerequisites: |
+  prerequisites:
     Открыта страница с выбором товара https://hexlet-products-store.vercel.app/
   test-data: магазин https://hexlet-products-store.vercel.app/
   steps:
