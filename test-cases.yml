@@ -28,9 +28,9 @@
   requirement: >
     При включённом чек-боксе "In stock" должны отображаться только
     товара из наличия 
-  prerequisites: >  
-  Открыта страница со списком товаров https://hexlet-products-store.vercel.app/ 
-  test-data: магазин https://hexlet-products-store.vercel.app/
+  prerequisites: >
+    Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
+test-data: магазин https://hexlet-products-store.vercel.app/
   steps:
     - Нажимаем чек-бокс "In stock"
   expected-result: >
