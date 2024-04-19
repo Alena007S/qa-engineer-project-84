@@ -114,70 +114,70 @@
       
 - summary: |
       Неработает перенаправление на оплату товара почле заказа товара 
-    environment: |
+  environment: |
       Google Chrome   123.0.6312.122 (Официальная сборка) (64 бит)
       ОС Windowsя
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Зайти на страницу со списком товаров https://hexlet-products-store.vercel.app/
       2. нажать на кнопку "add to cart" на одном из товаров
       3. перейти в корзину нажам на кнопку "cart"
       4. сделать заказ нажав на кнопку "checkout"
-    expected-result: |
+  expected-result: |
       После успешного заказа товара должно быть перенаправление на отплату товара 
-    actual-result: |
+  actual-result: |
       Появляется уведомление об успешно совершенном заказе, перенаправление на страницу оплаты не просиходит, в DevTools во вкладук Network ошибка 500
 
 - summary: |
       Корзина не остается в сессии браузера
-    environment: |
+  environment: |
       Google Chrome   123.0.6312.122 (Официальная сборка) (64 бит)
       ОС Windows
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Зайти на страницу со списком товаров https://hexlet-products-store.vercel.app/
       2. нажать на кнопку "add to cart" на одном из товаров
       3. открыть мазазин еще в одной вкладке
-    expected-result: |
+  expected-result: |
       При откртии нескольких вкладок, товары должны оставаться в карзине
-    actual-result: |
+  actual-result: |
       При открытие новой вклади, товары из корзины пропадают. кук нет.
 
 - summary: |
       Пропадает кнопку "Next" при использовании фильтра по категории
-    environment: |
+  environment: |
       Google Chrome   123.0.6312.122 (Официальная сборка) (64 бит)
       ОС Windows
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Зайти на страницу со списком товаров https://hexlet-products-store.vercel.app/
       2. Фильтруем товары по категории "laptops"
       3. Сбрасываем фильтр 
-    expected-result: |
+  expected-result: |
       На странице отображаются все товары, сверху и снизу списка товров есть кнопка "Next"
-    actual-result: |
+  actual-result: |
       После фильтрации товара покатегории, и сброса фильтра кнопка "Next" на появляется
 
 - summary: |
       При фильтрации товаров по бренду, в некоторых брендах едет верстка
-    environment: |
+  environment: |
       Google Chrome   123.0.6312.122 (Официальная сборка) (64 бит)
       ОС Windows
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Зайти на страницу со списком товаров https://hexlet-products-store.vercel.app/
       2. Фильтруем товары по бренду "Oppo"
-    expected-result: |
+  expected-result: |
       На странице отображается только товарвы бренда Oppo, изображение отображается корректно, текст не уезжает за пределы облести
-    actual-result: |
+  actual-result: |
       На странице отображается только товарвы бренда Oppo, изображение отображается некорректно, текст уезжает за пределы облести
 
 - summary: |
       При переключение языка на русский описание товара остается на английском
-    environment: |
+  environment: |
       Google Chrome   123.0.6312.122 (Официальная сборка) (64 бит)
       ОС Windows
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Зайти на страницу со списком товаров https://hexlet-products-store.vercel.app/
       2. еажимаем на радио-кнопку "language"
       3. выбираем русский язык
-    expected-result: |
+  expected-result: |
       Текст на сайте должен отображатся на русском языке
-    actual-result: |
+  actual-result: |
       Описание товаров отображается на английском  языке
