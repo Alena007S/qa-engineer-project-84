@@ -64,10 +64,6 @@
   status: fail
 
 - summary: |
-    Проверка кнопки "Clear cart"
-  status: pass
-
-- summary: |
     Проверка мобильной версии
   status: fail
 
