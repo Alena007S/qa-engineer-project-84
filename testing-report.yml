@@ -92,6 +92,10 @@
   status: fail
 
 - summary: |
+    проверка магазина как SPA-приложение
+  status: pass
+
+- summary: |
     Просмотр полной информации о товаре
   status: pass
 
@@ -102,4 +106,4 @@
 - summary: |
     Проверка кросбраузерности
   status: pass
- 
+
