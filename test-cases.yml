@@ -358,7 +358,7 @@
   requirement: |
     При открытии сайта в разных браузерах, все должно отображаться корректно.
   prerequisites: Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
-  test-data: магазин https://hexlet-products-store.vercel.app/. Браузеры Google Chrome Версия: 123.0.6132.46, Firefox Browser Версия: 123.0.1, Opera Версия: 108.0.5067.29
+  test-data: магазин https://hexlet-products-store.vercel.app/. Браузеры Google Chrome 123.0.6132.46, Firefox Browser 123.0.1, Opera 108.0.5067.29
   steps:
     - перейти на страницу любого товара нажав на товар
     - добавить товар в корзину нажав "Add to cart" 
